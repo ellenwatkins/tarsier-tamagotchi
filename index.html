@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tarsier Tamagotchi</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body class="">
+    <div class='container'>
+        <div class="header">
+            <h1 class="headerText">Tarsier Tamagotchi! </h1>
+        </div>
+        <div class="row">
+            <div class="petFocus col s12 m6">
+                <div class="tarsierPics">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Tarsier_Hugs_Mossy_Branch.jpg"/>
+                </div>
+            </div>
+            <div class='actions col s12 m6'>
+                <div class="narration">
+                    <p class="narrationText">What do you want to do today?</p>
+                </div>
+                
+                <div class="petButtons">
+                    <button id="petFirstButton" class="click z-depth-2">Pet</button>
+                    <button id="petSnackButton" class="hidden click z-depth-2">Throw him a bug</button>
+                </div>
+                
+                 <div class="foodButtons">
+                    <button id="feedButton" class="click z-depth-2">Feed</button>
+                    <button id="feedRightFoodButton" class="hidden click z-depth-2">Give him a little lizard</button>
+                    <button id="feedWrongFoodButton" class="hidden click z-depth-2">Give him a nice peach</button>
+                </div>
+                
+                <div class="napbuttons">
+                    <button id="napTimeButton" class="click z-depth-2">Take a nap</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="return">
+            <button id="returnButton" class='click z-depth-2'>Back to Start</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

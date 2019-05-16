@@ -1,0 +1,61 @@
+.hidden{
+    display:none;
+}
+.header{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+}
+.tarsierPics {
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    display:flex;
+    align-items:center;
+}
+img{
+    height: auto;
+    width: 300px;
+}
+
+body{
+    background: #424242;
+    text-align: center;
+    color:white;
+}
+
+.container{
+    width: 70%;
+    text-align:center;
+    display: inline-block;
+}
+
+.click{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    background-color: #6ce86e;
+}
+
+.narration{
+    height: 100px;
+}
+
+.return{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+
+#returnButton{
+    font-size: 70%;
+    background-color: #6ce8ac;
+}
+
+.click:hover{
+    background-color:#a8e86c;
+}
